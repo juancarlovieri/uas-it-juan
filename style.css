@@ -1,6 +1,23 @@
 ::-webkit-scrollbar {
   display: none;
 }
+.profpic {
+  height:  40px;
+  vertical-align:  bottom;
+}
+.title {
+  display:flex;
+  justify-content:center;
+  z-index: 99 !important;
+  padding: 0;margin: 0;
+  align-items: center !important;
+  height: inherit;
+  position: relative;
+  color: #ffd3f1;
+  font-weight: 1000;
+  font-size:  4vw;
+  line-height: 1.2;
+}
 html,
 body {
   margin: 0;
