@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  all = ["fb", "em", "wa", "git", "li", "ig"];
+  all = ["fb", "em", "wa", "git", "ig"];
   for (let i = 0; i < all.length; ++i) {
     const social = `#social-${all[i]}`;
     const message = `#${all[i]}-message`;
